@@ -1,8 +1,10 @@
 import React from 'react'
 
-const PlanLayout = () => {
+const PlanLayout = ({ children }) => {
     return (
-        <div>PlanLayout</div>
+        <div style={{ width: '100%', maxWidth: '500px', margin: 'auto'}}>
+            {children}
+        </div>
     )
 }
 
