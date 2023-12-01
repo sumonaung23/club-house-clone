@@ -1,10 +1,13 @@
 import './App.css';
+import PlanLayout from './pages/Layouts/PlanLayout';
 import Welcome from './pages/Welcome';
 
 function App() {
   return (
     <>
-      <Welcome />
+      <PlanLayout>
+        <Welcome />
+      </PlanLayout>
     </>
   );
 }
