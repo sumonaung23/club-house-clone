@@ -14,6 +14,10 @@ const Welcome = () => {
                 <p>
                     Anyone can join with and invite from an existing user - or reserve your username and we'll text you if you have a friend on the app who can let you in. We are so greateful you're here and can't wait to have you join!
                 </p>
+                <p>Paul, Rohan & the Clubhouse team</p>
+            </div>
+            <div className={style.actionBtn}>
+                <Link exact to='/get_username' className='primaryBtn d-flex align-items-center mb-3'></Link>
             </div>
             </div>
         </>
