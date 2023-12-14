@@ -1,6 +1,8 @@
 import './App.css';
 import AllowNotification from './pages/AllowNotification';
 import CodeConfirm from './pages/CodeConfirm';
+import Home from './pages/Home';
+import AppLayout from './pages/Layouts/AppLayout';
 import PlanLayout from './pages/Layouts/PlanLayout';
 import PhoneConfirmation from './pages/PhoneConfirmation';
 import Welcome from './pages/Welcome';
@@ -18,6 +20,12 @@ function App() {
             <Route path='/allow_notification' element={<AllowNotification />} />
           </Routes>
         </PlanLayout>
+
+        <AppLayout>
+          <Routes>
+            <Route path='/home' element={<Home />} />
+          </Routes>
+        </AppLayout>
       </BrowserRouter>
     </>
   );
