@@ -36,6 +36,10 @@ a {
   margin-left: 6px;
 }
 
+.mr {
+  margin-right: 6px;
+}
+
 a:hover {
   text-decoration: none !important;
 }
