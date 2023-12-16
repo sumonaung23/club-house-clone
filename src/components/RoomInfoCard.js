@@ -16,7 +16,7 @@ const RoomInfoCard = () => {
                             <div className={style.roomMembers}>
                                 <div>
                                     <img src='/images/user-img.jpg' alt='' />
-                                    <img src='/images/user-img.jpg' alt='' />
+                                    <img src='/images/user-img2.jpg' alt='' />
                                 </div>
                                 <div>
                                     {item.members.map(person => (
@@ -25,10 +25,10 @@ const RoomInfoCard = () => {
                                         </p>
                                     ))}
                                     <p className='d-flex align-items-center'>
-                                        <span className='mr-2'>1.8</span>
+                                        <span className='mr'>1.8</span>
                                         <BsFillPersonFill />
                                         <span className='mx-2'></span>{" "}
-                                        <span className='mr-2'>5</span>
+                                        <span className='mr'>5</span> <BsChatDotsFill />
                                     </p>
                                 </div>
                             </div>
