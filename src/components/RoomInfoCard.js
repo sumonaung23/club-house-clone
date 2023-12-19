@@ -6,7 +6,6 @@ import data from '../data/roomCard.json'
 const RoomInfoCard = () => {
     return (
         <>
-            <h2>I'm the room info card.</h2>
             {data.map(item => (
                 <div>
                     <div>
